@@ -45,7 +45,7 @@ class SM():
 				if re.search(date, file, re.I):
 					file = 'Log file\\' + file
 					return file		
-
+#another GITHub practice
 	def csv_read(self, inFile):
 		lst_of_dict = []
 		iFile = open(inFile,"rb")
