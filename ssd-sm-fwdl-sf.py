@@ -64,7 +64,7 @@ class SM():
 			row_idx += 1
 		iFile.close()
 		return lst_of_dict
-	
+	#GITHub Pracitce #3
 	#for future, take into account a failed test case, where there is no test detail information given - kevin le 07-22-2016
 	def testcasecheck(self, lst_of_dict):
 		log = _ug_lib.ugLog.Log()
