@@ -35,7 +35,7 @@ class SM():
 		list_of_dict = self.csv_read(inf)
 		self.testcasecheck(list_of_dict)		
 		shutil.move(inf, inf + datetime.datetime.now().strftime("%Y%m%d%H%M%S"))
-		
+	#GITHub practice
 
 	def filecheck(self, PN):
 		rootdir = HOME + '\\' + PN + '\Log file'
