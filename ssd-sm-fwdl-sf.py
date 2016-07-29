@@ -35,7 +35,7 @@ class SM():
 		list_of_dict = self.csv_read(inf)
 		self.testcasecheck(list_of_dict)		
 		shutil.move(inf, inf + datetime.datetime.now().strftime("%Y%m%d%H%M%S"))
-		
+	#GITHub practice
 
 	def filecheck(self, PN):
 		rootdir = HOME + '\\' + PN + '\Log file'
@@ -45,7 +45,7 @@ class SM():
 				if re.search(date, file, re.I):
 					file = 'Log file\\' + file
 					return file		
-
+#another GITHub practice
 	def csv_read(self, inFile):
 		lst_of_dict = []
 		iFile = open(inFile,"rb")
